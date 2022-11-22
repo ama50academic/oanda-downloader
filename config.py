@@ -8,7 +8,7 @@ hostname = 'api-fxpractice.oanda.com'
 
 # Log into your account and go to "My Account" -> "My Services" -> 
 # -> "Manage API Access" to get the token.
-token = 'xxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxx'
+token = 'xxxxxxxxxxxxxxxxx-xxxxxxxxxxxxx'
 
 # DateTime format which will be returned:
 #  "UNIX" - "12345678" format (number of seconds since 1 Jan 1970).
@@ -22,7 +22,7 @@ instrument = 'EUR_USD'
 # The Price component(s) to get candlestick data for. Can contain any
 # combination of the characters "M" (midpoint candles), "B" (bid
 # candles) and "A" (ask candles).
-price = 'AB'
+price = 'M'
 
 # Candlestick granularity:
 #   S5,S10,S15,S30 - 5,10,15,30 second candlesticks, minute alignment.
@@ -33,7 +33,7 @@ price = 'AB'
 #   D - 1 day candlesticks, day alignment.
 #   W - 1 week candlesticks, aligned to start of week.
 #   M - 1 month candlesticks, aligned to first day of the month.
-granularity = 'M1'
+granularity = 'S5'
 
 # A flag that controls whether the candlestick is "smoothed" or not.
 # A smoothed candlestick uses the previous candle's close price as its
@@ -65,5 +65,5 @@ weekly_alignment = 'Friday'
 # (RFC3339), e.g. "1234567890", "2009-01-31", "2019-02-17T20:00:00".
 # The variables format does not have to be the same as specified in
 # "datetime_format" variable.
-from_time = '2019-01-01'
-to_time = '2019-02-01'
+from_time = '2010-10-01'
+to_time = '2010-11-01'
